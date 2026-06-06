@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    background-color: #16213e;
+    border: 2px solid #0f3460;
+    display: block;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+    z-index: 10;
+}
+
+#ui div {
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+#health-value {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+#weapon-name {
+    color: #ffd93d;
+}
+
+#money-value {
+    color: #4ecdc4;
+    font-weight: bold;
+}
